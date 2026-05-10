@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Wicked Kricꓘetz | Custom Decals</title>
+    <meta
+      name="description"
+      content="Custom decals, stickers, shirts, tumblers, and personalized creations by Wicked Kricꓘetz."
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" href="logo.png" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <img src="logo.png" alt="Wicked Kricꓘetz logo" class="logo" />
+
+      <nav class="nav">
+        <a href="#gallery">Gallery</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">Apparel • Decals • Vinyls • Custom Creations</p>
+
+        <h1>Custom creations made wicked good.</h1>
+
+        <p class="hero-text">
+          From vehicle decals to business stickers and custom projects, Wicked
+          Kricꓘetz brings your ideas to life with bold designs and quality work.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#gallery" class="btn btn-primary">View Our Work</a>
+          <a href="#contact" class="btn btn-secondary">Request a Quote</a>
+        </div>
+      </section>
+
+      <section id="gallery" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">Gallery</p>
+          <h2>Recent Work</h2>
+          <p>Swipe or tap through examples of custom decal work.</p>
+        </div>
+
+        <div class="slider">
+          <div class="slides">
+            <div class="slide">
+              <img src="images/image1.jpg" alt="Custom decal" />
+            </div>
+
+            <div class="slide">
+              <img src="images/image2.jpg" alt="Custom decal" />
+            </div>
+
+            <div class="slide">
+              <img src="images/image3.jpg" alt="Custom decal" />
+            </div>
+
+            <div class="slide">
+              <img src="images/image4.jpg" alt="Custom decal" />
+            </div>
+
+            <div class="slide">
+              <img src="images/image5.jpg" alt="Custom decal" />
+            </div>
+
+            <div class="slide">
+              <img src="images/image6.jpg" alt="Custom decal" />
+            </div>
+
+            <div class="slide">
+              <img src="images/image7.jpg" alt="Custom decal" />
+            </div>
+
+            <div class="slide">
+              <img src="images/image8.jpg" alt="Custom decal" />
+            </div>
+
+            <div class="slide">
+              <img src="images/image9.jpg" alt="Custom decal" />
+            </div>
+
+            <div class="slide">
+              <img src="images/image10.jpg" alt="Custom decal" />
+            </div>
+
+            <div class="slide">
+              <img src="images/image11.jpg" alt="Custom decal" />
+            </div>
+          </div>
+
+          <button
+            class="slider-btn prev"
+            type="button"
+            aria-label="Previous image"
+          >
+            ❮
+          </button>
+
+          <button class="slider-btn next" type="button" aria-label="Next image">
+            ❯
+          </button>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="section-heading">
+          <p class="eyebrow">What We Offer</p>
+          <h2>Custom Made for You</h2>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card">
+            <h3>T-Shirts & Hoodies</h3>
+            <p>
+              Custom apparel made for businesses, events, teams, gifts, and
+              personal designs.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h3>Hats & Apparel</h3>
+            <p>
+              Personalized hats, pants, and wearable custom creations made to
+              stand out.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h3>Vehicle Decals</h3>
+            <p>
+              Custom decals and graphics for cars, trucks, windows, and more.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h3>Window Vinyls</h3>
+            <p>
+              Window decals and vinyl lettering for businesses, storefronts, and
+              custom projects.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <h3>Custom Cups</h3>
+            <p>Personalized tumblers, cups, and drinkware designed your way.</p>
+          </div>
+
+          <div class="service-card">
+            <h3>Custom Orders</h3>
+            <p>
+              Have an idea? Wicked Kricꓘetz can help bring your custom design
+              vision to life.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Request a Quote</h2>
+          <p>Tell us what you want made, and we’ll get back to you soon.</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+            action="/thank-you.html"
+            class="contact-form"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <p hidden>
+              <label>
+                Don’t fill this out:
+                <input name="bot-field" />
+              </label>
+            </p>
+
+            <label>
+              Name
+              <input type="text" name="name" required />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" required />
+            </label>
+
+            <label>
+              Phone
+              <input type="tel" name="phone" />
+            </label>
+
+            <label>
+              What are you looking for?
+              <textarea name="message" rows="5" required></textarea>
+            </label>
+
+            <button type="submit" class="btn btn-primary">Send Request</button>
+          </form>
+
+          <div class="contact-info">
+            <h3>Prefer to reach out directly?</h3>
+
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:wickedkricketz@gmail.com"
+                >wickedkricketz@gmail.com</a
+              >
+            </p>
+
+            <p>
+              <strong>Phone:</strong>
+              <a href="tel:+1 (803) 372-7847">+1 (803) 372-7847</a>
+            </p>
+
+            <p class="small-note">We typically respond within 24 hours.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Wicked Kricꓘetz. All rights reserved.</p>
+    </footer>
+    <p class="creator">Website designed by <span>Geneva Flowers</span></p>
+    <script src="script.js"></script>
+  </body>
+</html>
